@@ -18,9 +18,11 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for (int x = 0; x <= 9999; x++ ) {
-      createMultiplexDigit(x);
-  }
+//  for (int x = 0; x <= 9999; x++ ) {
+//      createMultiplexDigit(x);
+//  }
+
+createMultiplexDigit(1721);
   //  for (int x = 0; x <= 9; x++ ) {
   //    createDigit(x);
   //    delay(600);
